@@ -1,7 +1,7 @@
-import Interval from './iterator.js';
+import Sale from './decorator.js';
 
-let interval = new Interval(1, 10);
+let sale = new Sale(140);
+sale.decorate('Taxes');
+sale.decorate('USD');
 
-while (interval.hasNext()) {
-    console.log(interval.next());
-}
+console.log(sale.getPrice());
