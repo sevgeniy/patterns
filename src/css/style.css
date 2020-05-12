@@ -1,0 +1,7 @@
+.errorMessages {
+    color: salmon;
+}
+
+.errorMessages--no-error {
+    display: none;
+}
