@@ -1,1 +1,1 @@
-import { Mediator } from './mediator.js';
+import { Observer } from './observer2.js';
